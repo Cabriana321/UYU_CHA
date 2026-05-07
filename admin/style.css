@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+/*  OVERALL   */
+
+* {
+    text-decoration: none;
+    font-family: Poppins;
+}
+
+body {
+    margin: 0;
+    background-color: #E5E5D9;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 18px;
+    font-family: Poppins;
+}
+
+hr {
+    width: 70%;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+/*  ADMIN DASHBOARD AND LOG IN   */
+.log-in-body {
+    background: #1B1B1B;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background: #E5E5D9;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    max-width: 400px;
+    padding: 30px 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #5B4226;
+    margin-bottom: 5px;
+}
+
+.login-container h3 {
+    color: #5B4226;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.login-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-container input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+.login-container button {
+    background-color: #FF8500;
+    border: none;
+    padding: 15px;
+    width: 40%;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login-container button:hover {
+    opacity: 0.8;
+    font-weight: 700;
+}
+
+
+/* ADMIN */
+#admin-section {
+    display: flex;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+.admin-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    gap: 10px;
+    min-height: 100vh;
+    width: 20%;
+    background-color: #1b1b1b;
+    padding-top: 20px;
+    z-index: 10;
+}
+
+.admin-nav a {
+    font-weight: 700;
+    color: white;
+    margin: 0 20%;
+    padding-bottom: 20px;
+}
+
+.admin-nav a.active {
+    color: #FF8500;
+    font-weight: 700;
+}
+
+.admin-content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px 0 100px 20%;
+    min-height: 100vh;
+    align-items: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-bottom: 50px;
+    table-layout: fixed;
+}
+
+table, th, td {
+    border: 1px solid #1b1b1b;
+    padding: 12px;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+th {
+    background-color: #FF8500;
+}
+
+th {
+    background-color: #FF8500;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+#review-head th, #review-body td {
+    font-size: 12px;
+}
+
+#review-head th:nth-child(1),
+#review-data td:nth-child(1) {
+    width: 40px;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 4px 8px;
+}
+
+#review-head th:nth-child(5),
+#review-body td:nth-child(5) {
+    width: 70px;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 4px 8px; 
+}
+
+td img {
+    width: 80px;
+    height: auto;
+}
+
+.edit-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.edit-form span {
+    font-weight: 700;
+}
+
+.edit-form.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.edit-button {
+    text-align: center;
+}
+
+.edit-contents {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-contents label {
+    width: 30%;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.edit-contents input,
+.edit-contents textarea {
+    resize: none;
+    width: 65%;
+    padding: 8px;
+    border: 1.5px solid #d9d9d9;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.edit-form input,
+.edit-form button {
+    margin: 5px;
+    padding: 8px;
+}
+
+.button {
+    background-color: #FF8500;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.edit-btn, .delete-btn, .add-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.add-div {
+    width: 90%;
+    padding-bottom: 20px;
+    text-align: right;
+}
+
+.add-div button {
+    width: 100px;
+    padding: 15px;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    opacity: 0.8;
+}
+
+.log-out {
+    width: 150px;
+    padding: 10px;
+    background-color: #FF8500;
+    color: white;
+    font-weight: 700;
+    margin: 0 20%;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+.log-out:hover {
+    opacity: 0.8;
+}
+
+

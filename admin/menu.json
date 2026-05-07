@@ -1,0 +1,267 @@
+{
+    "Milk Tea": [
+        {
+            "name": "Cheesecake",
+            "medium": "35",
+            "large": "45",
+            "description": "Has a creamy blend of luscious cheesecake flavor",
+            "image": "uploads\/Cheesecake.png"
+        },
+        {
+            "name": "Chocolate",
+            "medium": "35",
+            "large": "45",
+            "description": "has a rich, milky, and chocolatey flavor",
+            "image": "uploads\/Chocolate.png"
+        },
+        {
+            "name": "Cookies n' Cream",
+            "medium": "35",
+            "large": "45",
+            "description": "a classic milk tea with crushed cookies and creamy goodness",
+            "image": "uploads\/67fcbc22be933_Cookies n' Cream.png"
+        },
+        {
+            "name": "Dark Chocolate",
+            "medium": "35",
+            "large": "45",
+            "description": "a decadent fusion of milk tea and deep, rich dark chocolate",
+            "image": "uploads\/67fcbc54cd0f1_Dark Chocolate.png"
+        },
+        {
+            "name": "Matcha",
+            "medium": "35",
+            "large": "45",
+            "description": "a smooth and earthy blend of premium matcha",
+            "image": "uploads\/67fcbc7e91384_Matcha.png"
+        },
+        {
+            "name": "Salted Caramel",
+            "medium": "35",
+            "large": "45",
+            "description": "a sweet and salty with rich caramel flavor blend",
+            "image": "uploads\/67fcbcaee8844_Salted Caramel.png"
+        },
+        {
+            "name": "Taro",
+            "medium": "35",
+            "large": "45",
+            "description": "a creamy and sweet drink made with real taro flavor",
+            "image": "uploads\/67fcbce8b3ced_Taro.png"
+        },
+        {
+            "name": "Thai Original",
+            "medium": "35",
+            "large": "45",
+            "description": "an aromatic Thai-style milk tea with a perfect blend of tea",
+            "image": "uploads\/67fcbd1418321_Thai Original.png"
+        },
+        {
+            "name": "Vanilla",
+            "medium": "35",
+            "large": "45",
+            "description": "a smooth and velvety infused with classic vanilla flavor",
+            "image": "uploads\/67fcbd4251521_Vanilla.png"
+        },
+        {
+            "name": "Wintermelon",
+            "medium": "35",
+            "large": "45",
+            "description": "a refreshing milk tea with a caramelized wintermelon flavor",
+            "image": "uploads\/67fcbd6ebeaf7_Wintermelon.png"
+        }
+    ],
+    "Coffee": [
+        {
+            "name": "Iced Americano",
+            "medium": "35",
+            "large": "45",
+            "description": "a bold and refreshing coffee made with chilled water",
+            "image": "uploads\/Iced Americano.png"
+        },
+        {
+            "name": "Iced Caramel",
+            "medium": "34",
+            "large": "45",
+            "description": "refreshing blend of coffee and caramel syrup, served over ice",
+            "image": "uploads\/67fcbe0180959_Iced Caramel.png"
+        },
+        {
+            "name": "Iced Latte",
+            "medium": "35",
+            "large": "45",
+            "description": "a creamy and balanced blend of coffee and cold milk",
+            "image": "uploads\/67fcbe2eaf4a5_Iced Latte.png"
+        },
+        {
+            "name": "Iced Mocha",
+            "medium": "35",
+            "large": "45",
+            "description": "a delightful fusion of coffee, creamy milk, and chocolate",
+            "image": "uploads\/67fcbe5db65fb_Iced Mocha.png"
+        }
+    ],
+    "Frappe": [
+        {
+            "name": "Avocado",
+            "medium": "75",
+            "large": "85",
+            "description": "a rich and creamy blend of real avocado and milk",
+            "image": "uploads\/67fcbe9132b16_Avocado.png"
+        },
+        {
+            "name": "Black Forest",
+            "medium": "75",
+            "large": "85",
+            "description": "a blend of cherry flavors with cream and chocolate syrup",
+            "image": "uploads\/67fcbed6ed8ac_Black Forest.png"
+        },
+        {
+            "name": "Blueberry",
+            "medium": "75",
+            "large": "85",
+            "description": "a fruity and creamy blend of sweet blueberries and milk",
+            "image": "uploads\/67fcbf2527fa0_Blueberry.png"
+        },
+        {
+            "name": "Cheesecake",
+            "medium": "75",
+            "large": "85",
+            "description": "a luscious drink with rich flavor of cheesecake",
+            "image": "uploads\/67fcbf8792849_Cheesecake.png"
+        },
+        {
+            "name": "Cheesy Mango",
+            "medium": "75",
+            "large": "85",
+            "description": "a delicious fusion of sweet mango and creamy cheese",
+            "image": "uploads\/67fcc043a0252_Cheesy Mango.png"
+        },
+        {
+            "name": "Cookies n' Cream",
+            "medium": "75",
+            "large": "85",
+            "description": "a smooth and creamy blend of crushed cookies and milk",
+            "image": "uploads\/67fcc0894bc00_Cookies n' Cream.png"
+        },
+        {
+            "name": "Dark Chocolate",
+            "medium": "75",
+            "large": "85",
+            "description": "a bold and indulgent blend of rich dark chocolate and milk",
+            "image": "uploads\/67fcc0cabb631_Dark Chocolate.png"
+        },
+        {
+            "name": "Double Dutch",
+            "medium": "75",
+            "large": "85",
+            "description": "a decadent mix of chocolate, marshmallows, and nuts",
+            "image": "uploads\/67fcc14dd19ec_Double Dutch.png"
+        },
+        {
+            "name": "Matcha",
+            "medium": "75",
+            "large": "85",
+            "description": "a smooth and earthy blend of premium matcha and milk",
+            "image": "uploads\/67fcc179af264_Matcha.png"
+        },
+        {
+            "name": "Salted Caramel",
+            "medium": "75",
+            "large": "85",
+            "description": "a perfect balance of sweet caramel and a hint of salt",
+            "image": "uploads\/67fcc1b235ca1_Salted Caramel.png"
+        },
+        {
+            "name": "Strawberry",
+            "medium": "75",
+            "large": "85",
+            "description": "a refreshing and sweet blend of ripe strawberries and milk",
+            "image": "uploads\/67fcc1e5b0968_Strawberry.png"
+        },
+        {
+            "name": "Taro",
+            "medium": "75",
+            "large": "85",
+            "description": "a creamy and nutty-flavored drink made with real taro",
+            "image": "uploads\/67fcc2100c130_Taro.png"
+        },
+        {
+            "name": "Ube Macapuno",
+            "medium": "75",
+            "large": "85",
+            "description": "a delicious combination of rich ube and sweet macapuno",
+            "image": "uploads\/67fcc2387ea97_Ube Macapuno.png"
+        },
+        {
+            "name": "Vanilla",
+            "medium": "75",
+            "large": "85",
+            "description": "a classic and smooth frappe infused with rich vanilla flavor",
+            "image": "uploads\/67fcc25938a07_Vanilla.png"
+        }
+    ],
+    "Fruity": [
+        {
+            "name": "Blueberry",
+            "medium": "35",
+            "large": "45",
+            "description": "a sweet and tangy blueberry-flavored drink",
+            "image": "uploads\/67fcc29b7d048_Blueberry.png"
+        },
+        {
+            "name": "Green Apple",
+            "medium": "35",
+            "large": "45",
+            "description": "a blend of green apple, with burst of sweetness",
+            "image": "uploads\/67fcc2cb9a8f3_Green Apple.png"
+        },
+        {
+            "name": "Lemon",
+            "medium": "35",
+            "large": "45",
+            "description": "a zesty and refreshing lemon-flavored drink",
+            "image": "uploads\/67fcc2ef2396b_Lemon.png"
+        },
+        {
+            "name": "Lychee",
+            "medium": "35",
+            "large": "45",
+            "description": "a light and floral lychee-flavored drink with juicy taste",
+            "image": "uploads\/67fcc327aed16_Lychee.png"
+        },
+        {
+            "name": "Mixed Berries",
+            "medium": "35",
+            "large": "45",
+            "description": "a delightful blend of various berries, creating a fruity flavor",
+            "image": "uploads\/67fcc34e66ee5_Mixed Berries.png"
+        },
+        {
+            "name": "Strawberry",
+            "medium": "35",
+            "large": "45",
+            "description": "a classic and sweet strawberry-flavored drink",
+            "image": "uploads\/67fcc37895bdb_Strawberry.png"
+        }
+    ],
+    "Meals": [
+        {
+            "name": "Shanghai Rice",
+            "medium": "35",
+            "large": "50",
+            "description": "crispy pork shanghai rolls served over steaming rice",
+            "image": "uploads\/Shanghai Rice.png"
+        },
+        {
+            "name": "Siomai Rice",
+            "medium": "35",
+            "large": "50",
+            "description": "steamed or fried siomai served over hot, fluffy rice",
+            "image": "uploads\/68253a7706e5e_Siomai RIce.png"
+        }
+    ],
+    "Bread": [],
+    "Snacks": [],
+    "Premium Coffee": []
+}
