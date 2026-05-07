@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UYU CHA | Snacks Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/uyu-cha-mainlogo.png" sizes="16x16">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="./images/uyu-cha-logo.png" alt="UYU CHA logo"></a>
+        </div>
+
+        <nav>
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="navigation">
+                <ul class="nav-links">
+                    <li></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li class="dropdown">
+                        <input type="checkbox" id="dropdown-toggle" class="dropdown-checkbox">
+                        <label for="dropdown-toggle" class="dropdown-toggle active">Menu ▼</label>
+                        <ul class="dropdown-menu">
+                            <li><a href="milk-tea.html">Milk Tea</a></li>
+                            <li><a href="coffee.html">Coffee</a></li>
+                            <li><a href="frappe.html">Frappe</a></li>
+                            <li><a href="fruity.html">Fruity</a></li>
+                            <li><a href="meals.html">Meals</a></li>
+                            <li><a href="snacks.html" class="active">Snacks</a></li>
+                            <li><a href="bread.html">Bread</a></li>
+                            <li><a href="premium-coffee.html">Premium Coffee</a></li>
+                            <li><a href="order.html">Order Now</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <div class="upper-design">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill-opacity="1"
+                d="M0,192L40,181.3C80,171,160,149,240,149.3C320,149,400,171,480,192C560,213,640,235,720,224C800,213,880,171,960,160C1040,149,1120,171,1200,181.3C1280,192,1360,192,1400,192L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z" />
+            <text x="50%" y="30%">SNACKS</text>
+        </svg>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" id="page-search" placeholder="Search in Snacks..." />
+        <button id="page-search-btn">Search</button>
+    </div>
+
+    <div class="menu-container" id="menu"></div>
+
+    <div class="place-order-btn" id="placeOrderBtn">
+        <a href="order.html">
+            <button>Place an Order</button>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+
+
+    <footer class="footer">
+        <div class="top">
+            <div class="first-col">
+                <img src="./images/uyu-cha-logo.png" alt="UYU CHA logo">
+            </div>
+
+            <div class="second-third">
+                <div class="second-col">
+                    <h4>CONTENTS</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about-us.html">About Us</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="milk-tea.html">Menu</a>
+                    <a href="reviews.html">Reviews</a>
+                    <a href="contact-us.html">Contact Us</a>
+                </div>
+
+                <div class="third-col">
+                    <h4>LOCATION</h4>
+                    <p>Gov. I. Santiago, Malinta
+                        Valenzuela City,
+                        Metro Manila, 1440, Philippines
+                    </p>
+                    <a href="contact-us.html#map-area" id="see-map">See Map↗️</a>
+                </div>
+            </div>
+
+            <div class="last-col">
+                <div class="footer-search">
+                    <h4>FIND PRODUCT</h4>
+                    <form id="search-form">
+                        <input type="text" id="footer-search" placeholder="Search products..." autocomplete="off">
+                        <button type="submit" id="search">Search</button>
+                    </form>
+                    <ul id="search-results" class="floating-results"></ul>
+                </div>
+                <div id="contact">
+                    <h4>CONTACT US</h4>
+                    <p>+639971125525 | +639178913951</p>
+                    <p>uyucha.teaandcoffee@gmail.com</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="bottom">
+            <h6>&copy; 2025 UYU CHA. All Rights Reserved.</h6>
+            <h6>Designed and Developed by <span class="mobile-break"><br></span><a href="https://uyucha.store/ejcabriana" target="_blank" class="yellow">Emmanuel Cabriana </a> and <a href="https://rixellens.com" target="_blank" class="yellow">Ranzelle Paulino</a> </h6>
+        </div>
+    </footer>
+</body>
+
+</html>
